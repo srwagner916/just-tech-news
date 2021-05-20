@@ -11,7 +11,7 @@ Vote.init(
       autoIncrement: true
     },
     user_id: { 
-      id: DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       references: {
         model: 'user',
